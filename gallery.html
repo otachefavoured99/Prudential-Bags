@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | Prudential Bags</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+
+    .gallery-item {
+        height: 380px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .5s;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.06);
+    }
+
+    @media(max-width: 700px) {
+        .gallery-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .gallery-item {
+            height: 250px;
+        }
+    }
+
+    @media(max-width: 480px) {
+        .gallery-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+</style>
+
+
+</head>
+
+<body>
+
+<header class="header">
+
+
+<div class="container nav">
+
+    <a href="index.html" class="logo">
+        PRUDENTIAL <span>BAGS</span>
+    </a>
+
+    <nav id="navMenu">
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="collections.html">Collections</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+
+        <a href="https://wa.me/2347041592433"
+           class="nav-whatsapp">
+            Order on WhatsApp
+        </a>
+
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+</div>
+
+</header>
+
+<section class="hero page-hero" style="min-height:460px;">
+
+<div class="container hero-layout">
+
+<div class="hero-content">
+
+    <p class="eyebrow">PRUDENTIAL BAGS</p>
+
+    <h1>
+        Style in<br>
+        <span>Every Detail.</span>
+    </h1>
+
+    <p class="hero-text">
+        Take a look at our latest styles, collections
+        and bag inspirations.
+    </p>
+
+</div>
+
+<div class="hero-image">
+    <img src="Gallery 9.jpg" alt="Prudential shoulder bag">
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">OUR GALLERY</p>
+
+        <h2>
+            A Glimpse Into Prudential
+        </h2>
+
+        <p>
+            Explore our collection through the lens.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="Gallery 1.jpg"
+                 alt="Prudential handbag">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 2.jpg"
+                 alt="Prudential office bag">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 3.jpg"
+                 alt="Prudential shoulder bag">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 4.jpg"
+                 alt="Prudential travel bag">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 5.jpg"
+                 alt="Prudential handbags">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 6.jpg"
+                 alt="Prudential backpacks">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 7.jpg"
+                 alt="Prudential office bags">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 8.jpg"
+                 alt="Prudential travel bags">
+        </div>
+
+        <div class="gallery-item">
+            <img src="Gallery 10.jpg"
+                 alt="Prudential Bags collection">
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+    <p class="eyebrow">LIKE WHAT YOU SEE?</p>
+
+    <h2>
+        Let's Get You<br>
+        Your Perfect Bag.
+    </h2>
+
+    <br>
+
+    <a href="https://wa.me/2347041592433"
+       class="btn btn-light">
+
+        Order on WhatsApp
+
+    </a>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer-grid">
+
+    <div>
+        <a href="index.html" class="footer-logo">
+            PRUDENTIAL BAGS
+        </a>
+
+        <p>
+            Premium bags designed for confidence,
+            elegance and everyday life.
+        </p>
+    </div>
+
+    <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+        <h4>Contact</h4>
+        <p>WhatsApp: 07041592433</p>
+        <p>Facebook: Prudential Bags/Fashion</p>
+        <p>Location:Otukpa Branch, Benue State, Nigeria</p>
+    </div>
+
+</div>
+
+<div class="footer-bottom">
+    <p>
+        © 2026 Prudential Bags. All Rights Reserved.
+    </p>
+</div>
+
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
